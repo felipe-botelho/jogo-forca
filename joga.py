@@ -102,7 +102,7 @@ def joga_forca(erros):
     if resposta == 'S':
         disputadas += 1 #incrementa + 1 a cada rodada jogada dentro da variável disputadas
         joga_forca(erros) #chama o loop principal do jogo
-        #if que verifica se jogador digitou N
+    #if que verifica se jogador digitou N
     if resposta == 'N':
         #gera as informações como nome, quantidade de partidas disputadas, ganhas e perdidas
         print('\n'*5)
